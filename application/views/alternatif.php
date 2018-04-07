@@ -33,7 +33,9 @@
                                     <tr class="odd gradeX">
                                         <td><?php echo $no++ ?></td>
                                         <td><?php echo $alternatif['alternatif']; ?></td>
-                                        <td align="center"><img width="50%" src="<?php echo base_url('assets/img/').$alternatif['gambar']; ?>"></td>
+                                        <td align="center" width="30%">
+                                            <img width="100%" src="<?php echo base_url('assets/img/').$alternatif['gambar']; ?>">
+                                        </td>
                                         <td class="center"><?php echo $alternatif['deskripsi']; ?></td>
                                         <td>
                                             <a href="<?php echo base_url('admin/edit_alternatif/'.$alternatif['id']);?>" class="btn-primary btn-sm">Edit  </a>
